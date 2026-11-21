@@ -1,0 +1,5 @@
+# Dataset is ~150 MB (GitHub limit is 100 MB per file). Download it from Kaggle.
+creditcard.csv
+*.zip
+__pycache__/
+.ipynb_checkpoints/
