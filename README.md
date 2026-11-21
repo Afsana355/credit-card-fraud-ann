@@ -47,9 +47,9 @@ Both models detect 90 of the 98 fraud cases. The ANN has fewer false alarms (1,0
 
 | Logistic Regression | ANN (MLP) |
 |---|---|
-| ![LR](images/confusion_matrix_logistic_regression.png) | ![ANN](images/confusion_matrix_ann.png) |
+| ![LR](confusion_matrix_logistic_regression.png) | ![ANN](confusion_matrix_ann.png) |
 
-![Loss curve](images/loss_curve.png)
+![Loss curve](loss_curve.png)
 
 ### Threshold analysis (ANN)
 
@@ -75,7 +75,7 @@ The last notebook cell launches a small Gradio interface. Pick a random genuine 
 
 | Fraud example | Genuine example |
 |---|---|
-| ![fraud](images/demo_fraud.png) | ![genuine](images/demo_genuine.png) |
+| ![fraud](demo_fraud.png) | ![genuine](demo_genuine.png) |
 
 ## How to run
 
@@ -93,8 +93,9 @@ jupyter notebook fraud_detection_ann.ipynb
 ```
 fraud_detection_ann.ipynb   notebook with code and outputs
 requirements.txt
-images/                     result figures and demo screenshots
-report/                     lab report and project proposal
+Lab_Report.pdf / .docx      lab report
+Project_Proposal.pdf        project proposal
+*.png                       result figures and demo screenshots
 ```
 
 ## Limitations
